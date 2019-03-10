@@ -1,4 +1,4 @@
-# Setting for Target VM
+﻿# Setting for Target VM
 # Set your resourcegroupname and vmname
 $rg_name = ""
 $target_vm_name = ""
@@ -11,7 +11,7 @@ $Password = ''
 $MailFrom = ''
 $MailTo = ''
 $Encode = 'UTF8'
-$Subject = 'テストメール from runbook'
+$Subject = 'Testmail from runbook'
 
 #Auto Authentication
 $connection = Get-AutomationConnection -Name AzureRunAsConnection
